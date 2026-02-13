@@ -1,2 +1,18 @@
-# quantpulse-pro
-An interactive investment dashboard with TradingView-style charts, MA200 automated alerts, and DCA profit simulations.
+# 📈 QuantPulse Pro
+
+QuantPulse Pro 是一個基於 **Python** 的智慧投資分析軟體。它結合了即時金融數據與自動化監控邏輯，幫助小資族分析定期定額的長線機會。
+
+### ✨ 核心亮點
+- **專業圖表**：動態 K 線圖與成交量分析 (TradingView 風格)。
+- **自動化告警**：股價跌破 MA200 均線時自動觸發紅色警報。
+- **複利模擬器**：視覺化預測未來 10-30 年的定期定額投資報酬。
+- **動態管理**：不需改動程式碼，即可在網頁介面動態新增/刪除追蹤股票。
+
+### 🛠️ 技術細節
+- 使用 **Streamlit** 建構全網頁互動介面。
+- 透過 **yfinance API** 獲取實時市場數據。
+- 使用 **Plotly** 實作響應式互動圖表。
+- 針對 **Pandas MultiIndex** 數據結構進行後端數據清洗。
+
+---
+*本專案僅供技術練習與教育參考，不構成任何投資建議。*
